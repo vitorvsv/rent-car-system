@@ -4,13 +4,20 @@
   "description": "The principal objective is to develop a system to rent a car. To do it we need to follow specification by BDD metodology.     I'm using unit tests to ensure correct functionality of the logic.",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "seed": "node ./seed/"
+    "seed": "node ./seed/",
+    "test": "npx mocha -w --parallel **/**/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel **/**/*.test.js"
   },
   "keywords": [],
   "author": "vitorsoaresvian",
   "license": "ISC",
   "dependencies": {
     "faker": "^5.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^8.4.0",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
   }
 }

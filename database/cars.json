@@ -1,1 +1,23 @@
-[{"id":"9ef5ed87-2e98-4aba-a2df-8b3e5944cfed","name":"Grand Caravan","releaseYear":2023,"available":true,"gasAvailable":true},{"id":"d8d3c05b-83b9-4f95-95ec-336866f3178d","name":"Golf","releaseYear":2023,"available":true,"gasAvailable":true},{"id":"9551d1d4-1255-484f-a279-e093d8207735","name":"Countach","releaseYear":2023,"available":true,"gasAvailable":true}]
+[
+    {
+        "id": "9ef5ed87-2e98-4aba-a2df-8b3e5944cfed",
+        "name": "Grand Caravan",
+        "releaseYear": 2023,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "d8d3c05b-83b9-4f95-95ec-336866f3178d",
+        "name": "Golf",
+        "releaseYear": 2023,
+        "available": true,
+        "gasAvailable": true
+    },
+    {
+        "id": "9551d1d4-1255-484f-a279-e093d8207735",
+        "name": "Countach",
+        "releaseYear": 2023,
+        "available": true,
+        "gasAvailable": true
+    }
+]
