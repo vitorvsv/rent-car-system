@@ -84,10 +84,7 @@ describe('CarService Suite Tests', () => {
         expect(result).to.be.deep.equal(expected)
     })
 
-    // age: 50, price = 37.6, numberOfDays = 5
-    // 37.6 * 1.3 = 48.88
-    // 48.88 * 5 days = 244.4
-    it('given a carCategory, customer and number od days it should calculate the final amount in real', async () => {
+    it('Given a carCategory, customer and number od days it should calculate the final amount in real', async () => {
         const customer = Object.create(mocks.validCustomer);
         customer.age = 50;
 
@@ -113,7 +110,7 @@ describe('CarService Suite Tests', () => {
         expect(result).to.be.deep.equal(expected)
     })
 
-    it('given a customer and a car category it should return a transaction receipt', async () => {
+    it('Given a customer and a car category it should return a transaction receipt', async () => {
         const car = mocks.validCar;
         const carCategory = {
             ...mocks.validCarCategory,

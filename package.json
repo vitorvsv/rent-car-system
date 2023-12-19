@@ -5,18 +5,22 @@
   "main": "index.js",
   "scripts": {
     "seed": "node ./seed/",
-    "test": "npx mocha -w --parallel **/**/*.test.js",
-    "test:cov": "npx nyc npx mocha --parallel **/**/*.test.js"
+    "test-old": "npx mocha -w --parallel **/**/*.test.js",
+    "test": "npx mocha -w **/**/*.test.js",
+    "test:cov": "npx nyc npx mocha --parallel **/**/*.test.js",
+    "server": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "vitorsoaresvian",
   "license": "ISC",
   "dependencies": {
-    "faker": "^5.1.0"
+    "faker": "^5.1.0",
+    "supertest": "^6.3.3"
   },
   "devDependencies": {
     "chai": "^4.3.10",
-    "mocha": "^8.4.0",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.2",
     "nyc": "^15.1.0",
     "sinon": "^9.2.4"
   }
